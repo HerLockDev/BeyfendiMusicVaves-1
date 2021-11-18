@@ -16,20 +16,20 @@ reply_markup=keyboard
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Grubuna ekle ➕", url="https://t.me/HerTeldenMuzikBot?startgroup=true"
+                        "➕ Grubuna ekle ➕", url="https://t.me/LegendMuzikbot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🏷️ Destek Grubu", url="https://t.me/SohbetOdagi"
+                        "🏷️ Destek Grubu", url="https://t.me/LegendSupport"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔧 Geliştirici", url = "https://t.me/Bir_Beyfendi"
+                        "🔧 Geliştirici", url = "https://t.me/herlock_exe"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Asistan" , url = "https://t.me/HerTeldenAsistan"
+                        "🔊 Asistan" , url = "https://t.me/herlock_exe"
                     )
                 ],
                 [ 
@@ -37,7 +37,7 @@ reply_markup=keyboard
                         "🌀 Komutlar" , url = "https://telegra.ph/Komutlar-10-22"
                     ),
                     InlineKeyboardButton(
-                        "🎮 Oyun Botu", url="https://t.me/BasitOyunBot"
+                        "YAKINDA💠", url="https://t.me/"
                     )
                 ]
             ]
@@ -52,7 +52,7 @@ async def bilgi(_, message: Message):
              [
                  [
                      InlineKeyboardButton(
-                         "⚙ Geliştirici", url="https://t.me/Bir_Beyfendi")
+                         "⚙ Geliştirici", url="https://t.me/herlock_exe")
                  ]
              ]
          )
